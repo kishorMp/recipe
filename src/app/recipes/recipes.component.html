@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-md-5">
+      <app-recipe-list></app-recipe-list>
+    </div>
+    <div class="col-md-7">
+        <router-outlet></router-outlet>
+      <!-- <app-recipe-details 
+      *ngIf="selectedRecipe; else textInfo"
+      [recipeKishor] = "selectedRecipe"
+      ></app-recipe-details>
+
+      <ng-template #textInfo> 
+        <p> Please Select Recipe! </p>
+      </ng-template> -->
+    </div>
+</div>
+  
